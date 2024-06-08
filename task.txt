@@ -1,0 +1,18 @@
+Objective
+Create a Spring Boot Application that used Spring-Data-JPA and Spring Web with appropriate Exception Handling
+Duration
+1 Hour
+Complete the Following Requirements
+Define Entity - Employee Class
+Define the following properties in Employee Class.
+empid: int
+name: String
+basicSalary: String
+grade:char
+Define public Getter and Setter for all the properties and add toString(), hashCode() and equals() methods. Equals method implementation will use empid field.
+Create Spring Boot REST Application
+Create Spring Boot application that
+Persist the entity class instances into the backend database.
+Provides RestController that exposes the end points for CRUD operations for the above entity class.
+Has appropriate Exception handlers.
+Has necessary Service and DAO implementations.
